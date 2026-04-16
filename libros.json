@@ -1,0 +1,42 @@
+[
+    {
+        "titulo": "Cien a\u00f1os de soledad",
+        "autor": "Gabriel Garcia Marquez",
+        "genero": "Realismo magico",
+        "anio_publicacion": 1967,
+        "estado": "Disponible",
+        "prestado_a": null
+    },
+    {
+        "titulo": "yo",
+        "autor": "ella",
+        "genero": "el",
+        "anio_publicacion": 2025,
+        "estado": "Disponible",
+        "prestado_a": null
+    },
+    {
+        "titulo": "he",
+        "autor": "she",
+        "genero": "it",
+        "anio_publicacion": 2926,
+        "estado": "Disponible",
+        "prestado_a": null
+    },
+    {
+        "titulo": "ellos",
+        "autor": "ellas",
+        "genero": "perez",
+        "anio_publicacion": 2026,
+        "estado": "Disponible",
+        "prestado_a": null
+    },
+    {
+        "titulo": "ellos",
+        "autor": "elles",
+        "genero": "brrr",
+        "anio_publicacion": 2024,
+        "estado": "Disponible",
+        "prestado_a": null
+    }
+]
