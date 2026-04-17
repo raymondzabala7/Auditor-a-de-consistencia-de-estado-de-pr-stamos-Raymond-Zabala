@@ -1,9 +1,8 @@
 from enum import auto
 import json
 import os
-from turtle import title
-
-DATA_PATH = "data/libros.json"
+import config
+DATA_PATH = config.ruta_absoluta/"data/libros.json"
 
 def asegurar_ruta():
     if not os.path.exists("data"):
@@ -36,24 +35,6 @@ try:
         anio = int(input("Ingrese el año de publicación: "))
 except ValueError:
         print("Año no válido. Registro cancelado.")
-
-if anio > 2026: 
-    print("Error: El año no puede ser del futuro.")
-nuevo_libro = {
-        "titulo": titulo,
-        "autor": autor,
-        "genero": genero,
-        "anio_publicacion": anio,
-        "estado": "Disponible",
-        "prestado_a": None
-    }
-
-libros = cargar_libros()
-    
-libros.append(nuevo_libro)
-
-guardar_libros(libros)
-print(f'\nLibro "{title}" registrado exitosamente.')
 
 def ver_inventario():
     libros = cargar_libros()

@@ -1,0 +1,12 @@
+{
+    "libros_con_problemas": [],
+    "resumen_auditoria": {
+        "total_revisados": 6,
+        "total_inconsistencias": 0,
+        "conteo_por_tipo": {
+            "ESTADO_INVALIDO": 0,
+            "PRESTADO_SIN_USUARIO": 0,
+            "DISPONIBLE_CON_USUARIO": 0
+        }
+    }
+}

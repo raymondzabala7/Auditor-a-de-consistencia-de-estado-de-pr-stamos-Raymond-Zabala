@@ -1,8 +1,9 @@
 import json
 import os
 from gestion_libros import cargar_libros
+import config
 
-REPORTE_AUDITORIA = "data/reportes/reporte_auditoria_estados.json"
+REPORTE_AUDITORIA = config.ruta_absoluta/"data/reportes/reporte_auditoria_estados.json"
 
 def auditoria_estados():
     libros = cargar_libros()
